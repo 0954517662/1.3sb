@@ -288,7 +288,7 @@ def bot(op):
                             arif.sendText(to, str(helpMessage))
                         elif text.lower() == 'tag':
                             group = arif.getGroup(msg.to)
-                            k = len(group.members)//100
+                            k = len(group.members)//20
                             for j in range(k+1):
                                 aa = []
                                 for x in group.members:
@@ -326,7 +326,7 @@ def bot(op):
                                     arif.sendText(msg.to,str(e))
                         elif text.lower() == 'botak':
                             group = arif.getGroup(msg.to)
-                            k = len(group.members)//100
+                            k = len(group.members)//20
                             for j in range(k+1):
                                 aa = []
                                 for x in group.members:
