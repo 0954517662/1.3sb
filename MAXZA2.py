@@ -42,10 +42,10 @@ switch = {
     'dinvite':False,
     'wblacklist':False,
     'dblacklist':False,
-    'wpeki':False,
+    'wpeki':True,
     'dpeki':False,
-    'cp1':False,
-    'cp2':False,
+    'cp1':True,
+    'cp2':True,
     'changePicture':False
 }
 
